@@ -18,16 +18,24 @@
 	margin-bottom: 10px;
 }
 
+.bannerphoto{
+	width: 900px;
+}
 .icon{
 	width: 40px;
 	padding: 0;
 	margin: 30 30 30 30;
 /*	float: left;*/
 	display: inline;
+	position: absolute; 
+	top: 100px; 
+	left: 100px;
 }
 
 .wrapper .navbar {
 padding: 10 10 10 100px;
+position: absolute; 
+top: 100px; right: 100px;
 
 }
 

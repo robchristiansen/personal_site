@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+	</script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>29 Hour Music People</title>
 	
@@ -9,6 +11,7 @@
 <body>
 		<div class="wrapper">
 			<div class="topofpage">
+				<img src="images/bannerphoto.jpg" class="bannerphoto">
 				
 				<ul class="navbar">
 					<li class="navchunk">
@@ -39,11 +42,11 @@
 			<div class="rightcol">
 				<p>Ten or more writers and musicians meet at one location to write and record an entire album in one weekend. Money from our downloads goes to The Sweet Relief Musicians Fund. Please spread the word.</P>
 				<div class="linksdiv">
-					<a href="https://www.facebook.com/29HourMusicPeople"><img src="images/FB_FindUsOnFacebook-100.png" class="fb"></a>
+					<a href="http://www.facebook.com/29HourMusicPeople"><img src="images/FB_FindUsOnFacebook-100.png" class="fb"></a>
 					<br>
-					<a href="29hourmusicpeople.bandcamp.com"><img src="https://s1.bcbits.com/img/buttons/bandcamp_130x27_black.png"></a>
+					<a href="http://www.29hourmusicpeople.bandcamp.com"><img src="https://s1.bcbits.com/img/buttons/bandcamp_130x27_black.png"></a>
 					<br>
-					<a href="https://www.youtube.com/watch?v=b9zSkoR96pQ"><img src="images/YouTube-logo-full_color.png" width="100px"></a>
+					<a href="http://www.youtube.com/watch?v=b9zSkoR96pQ"><img src="images/YouTube-logo-full_color.png" width="100px"></a>
 				</div>
 				<div class="news">
 					<h3>Stuff We're Doing</h3>
@@ -55,9 +58,10 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
 				</div>
-
-
-
+				<script>
+					$(".bannerphoto").hide();
+					$(".bannerphoto").fadeIn(1500);
+				</script>
 			</div>
 		</div>	
 </body>
