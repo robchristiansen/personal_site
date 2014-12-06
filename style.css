@@ -35,7 +35,7 @@
 	display: inline;
 	position: absolute; 
 	top: 100px; 
-	left: 100px;
+	left: 200px;
 }
 
 .wrapper .navbar {
@@ -96,8 +96,17 @@ button {
 .rightcol {
 	width: 50%;
 	float: left;
-
 }
+.generallinks{
+	text-decoration: none;
+	color: black;
+}
+
+.generallinks:hover {
+    border-bottom: 1px solid black; 
+}
+
+
 .rightcol p {
 	padding: 10px;
 	color: black;
@@ -108,20 +117,23 @@ button {
 	font-family: 'Old Standard TT', serif;
 }
 
+.sociality {
+	display: inline;
+}
+
 .fb {
-	padding: 15px;
+	padding-right: 19px;
 }
 
 .rightcol .news {
 	background-color: #E6E6E6;
 	font-color: black;
 	font-family: 'Old Standard TT', serif;
-
 }
 .news h3{
 	padding: 10px 10px 0px 10px;
 	font-family: 'Questrial', sans-serif;
-
 }
+
 
 
