@@ -64,7 +64,8 @@ button {
 	border-style: none;
     border-width: 1px;
     border-radius: 5px;
-    background-color: 	#E6E6E6;
+    background-color: white;
+
    
 }
 
@@ -134,6 +135,63 @@ button {
 	padding: 10px 10px 0px 10px;
 	font-family: 'Questrial', sans-serif;
 }
+
+
+/*Albums page*/
+.albumdiv{
+	float: left;
+
+	width: 900px;
+}
+
+.albumart{
+	width: 120px;
+	padding: 40px;
+	display: inline;
+	float: left;
+}
+
+.albumtextdiv{
+	Width: 650px;
+	Padding: 2px0px;
+	float: right;
+	border-width: 1px;
+	border-color: gray;
+	border-style: dotted;	
+
+}
+
+ h2{
+/*	padding: 10px 10px 0px 10px;*/
+	text-align: center;	
+	font-family: 'Questrial', sans-serif;
+	float: left;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
