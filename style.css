@@ -9,20 +9,26 @@
 .topofpage {
 	margin: 0 auto;
 /*	padding-top: 150px;*/
+	height: 333px	;
 	display: block;
-	background-color: #EEEEEA;
-		border-style: groove;
+/*	margin-bottom: 10px;*/
+	background-color: black;
+	border-style: none;
 	border-radius: 10px;
 	border-width: 2px;
 	border-color: white;
-	margin-bottom: 10px;
 }
 
 .bannerphoto{
 	width: 900px;
+	border-style: none;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: white;
+	
 }
 .icon{
-	width: 40px;
+	width: 200px;
 	padding: 0;
 	margin: 30 30 30 30;
 /*	float: left;*/
@@ -33,17 +39,14 @@
 }
 
 .wrapper .navbar {
-padding: 10 10 10 100px;
-position: absolute; 
-top: 100px; right: 100px;
+	padding: 10 10 10 100px;
+	position: absolute; 
+	top: 20px; right: 100px;
 
 }
 
 .wrapper .navbar .navchunk {
 	display: inline;
-	color: red;
-	vertical-align: top;
-	padding: 10px;
 	margin: 1px;
 }
 
@@ -56,8 +59,9 @@ top: 100px; right: 100px;
 
 button {
 	padding: 12px;
+	font-family: 'Questrial', sans-serif;
 	font-size: 12px
-	border-style: ridge;
+	border-style: none;
     border-width: 1px;
     border-radius: 5px;
     background-color: 	#E6E6E6;
@@ -82,7 +86,7 @@ button {
 .leftcol .studiopix {
 	width: 400px;
 	display: block;
-	border-style: groove;
+	border-style: none;
 	border-radius: 10px;
 	border-width: 2px;
 	border-color: white;
@@ -92,15 +96,16 @@ button {
 .rightcol {
 	width: 50%;
 	float: left;
+
 }
 .rightcol p {
-	font-family: helvetica;
 	padding: 10px;
-	color: gray;
+	color: black;
+	font-family: 'Old Standard TT', serif;
 }
 .rightcol .linksdiv {
 	text-decoration: none;
-	font-family: helvetica;
+	font-family: 'Old Standard TT', serif;
 }
 
 .fb {
@@ -110,15 +115,13 @@ button {
 .rightcol .news {
 	background-color: #E6E6E6;
 	font-color: black;
-	font-family: helvetica;
+	font-family: 'Old Standard TT', serif;
 
 }
 .news h3{
-	padding: 20px;
+	padding: 10px 10px 0px 10px;
+	font-family: 'Questrial', sans-serif;
+
 }
 
-.rightcol .news h2 {
-	font-color: black;
-	padding: 20px;
-}
 
