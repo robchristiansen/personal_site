@@ -30,19 +30,19 @@
 .icon{
 	width: 200px;
 	padding: 0;
-	margin: 30 30 30 30;
+/*	margin: 30 30 30 30;*/
 /*	float: left;*/
+	position: relative;
+	top: -257px;
+	left: 103px;
 	display: inline;
-	position: absolute; 
-	top: 100px; 
-	left: 200px;
 }
 
 .wrapper .navbar {
-	padding: 10 10 10 100px;
-	position: absolute; 
 	top: 20px; right: 100px;
-
+	position: relative;
+	top: -528px;
+	right: -573px;
 }
 
 .wrapper .navbar .navchunk {
@@ -101,6 +101,7 @@ button {
 .generallinks{
 	text-decoration: none;
 	color: black;
+
 }
 
 .generallinks:hover {
@@ -140,12 +141,13 @@ button {
 /*Albums page*/
 .albumdiv{
 	float: left;
+	vertical-align: top;
 
 	width: 900px;
 }
 
 .albumart{
-	width: 120px;
+	width: 150px;
 	padding: 40px;
 	display: inline;
 	float: left;
@@ -155,23 +157,73 @@ button {
 	Width: 650px;
 	Padding: 2px0px;
 	float: right;
-	border-width: 1px;
-	border-color: gray;
-	border-style: dotted;	
+}
 
+.albumtextdiv p {
+padding: 34px;
+margin: 34px;
 }
 
  h2{
-/*	padding: 10px 10px 0px 10px;*/
 	text-align: center;	
 	font-family: 'Questrial', sans-serif;
 	float: left;
 	display: block;
 }
 
+/*Why page*/
+.column1{
+	float: left;
+	width: 350px;
+/*	border-style: solid;
+	border-width: 1px;*/
+}
 
+.whytext a {
+	text-decoration: none;
+	color: black;
+}
 
+.whytext a:hover {
+	    border-bottom: 1px solid black; 
+}
 
+.column2{
+	float: left;
+	width: 350px;
+/*	border-style: solid;
+	border-width: 1px;*/
+}
+
+.column3{
+	float: left;
+	width: 200px;
+/*	border-style: solid;
+	border-width: 2px;*/
+}
+
+.whypix{
+	width: 200px;
+	margin: 50px 0px 0px 0px;
+		border-style: none;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: white;
+}
+
+.whyhead {
+	padding: 15px 10px 10px 10px;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+
+.whytext {
+	padding: 15px 12px 12px 12px;
+	font-family: 'Old Standard TT', serif;
+}
 
 
 
